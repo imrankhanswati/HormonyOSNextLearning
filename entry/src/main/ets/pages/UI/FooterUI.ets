@@ -12,7 +12,6 @@ export struct FooterUI {
       }
       .width('100%')
       .height('50%')
-      .backgroundColor(Color.Pink)
       .justifyContent(FlexAlign.Center)
 
       Column() {
@@ -22,14 +21,14 @@ export struct FooterUI {
           })
           .width('30%')
           .height('80%')
+          .fontSize(40)
       }
       .width('100%')
       .height('50%')
-      .backgroundColor(Color.Orange)
       .justifyContent(FlexAlign.Center)
     }
     .height('20%')
     .width('100%')
-    .backgroundColor(Color.Pink)
+    .backgroundColor($r('app.color.background_body'))
   }
 }

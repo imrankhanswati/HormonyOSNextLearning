@@ -7,7 +7,9 @@ export struct HeaderUI {
     }
     .height('20%')
     .width('100%')
+    .border({ width: { bottom: 1 } })
+    .borderColor({ bottom: $r('app.color.light_border') })
     .align(Alignment.Center)
-    .backgroundColor(Color.Green)
+    .backgroundColor($r('app.color.background_header'))
   }
 }

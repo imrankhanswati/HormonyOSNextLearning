@@ -1,8 +1,34 @@
 {
   "color": [
-    {
-      "name": "start_window_background",
-      "value": "#FFFFFF"
-    }
+      { "name": "primary_color", "value": "#3D5AFE" },
+      { "name": "accent_color", "value": "#00C853" },
+      { "name": "warning_color", "value": "#FFAB00" },
+      { "name": "error_color", "value": "#D50000" },
+
+      { "name": "background_header", "value": "#E3F2FD" },
+      { "name": "background_body", "value": "#F9F9F9" },
+      { "name": "light_card", "value": "#FFFFFF" },
+      { "name": "normal_card", "value": "#F0F4FF" },
+
+      { "name": "light_text_primary", "value": "#212121" },
+      { "name": "light_text_secondary", "value": "#757575" },
+      { "name": "light_border", "value": "#E0E0E0" },
+
+      { "name": "dark_background_header", "value": "#1F2B3A" },
+      { "name": "dark_background_body", "value": "#121212" },
+      { "name": "dark_card", "value": "#1E1E1E" },
+      { "name": "dark_text_primary", "value": "#FFFFFF" },
+      { "name": "dark_text_secondary", "value": "#BDBDBD" },
+      { "name": "dark_border", "value": "#2C2C2C" },
+
+      { "name": "task_completed", "value": "#4CAF50" },
+      { "name": "task_completed_border", "value": "#388E3C" },
+      { "name": "task_inprogress", "value": "#039BE5" },
+      { "name": "task_inprogress_border", "value": "#0277BD" },
+
+      { "name": "secondary_panel", "value": "#FFFFFF" },
+      { "name": "secondary_panel_text", "value": "#263238" },
+      {"name": "secondary_Background", "value": "#33000000"},
+      { "name": "secondary_panel_border", "value": "#B0BEC5" }
   ]
 }

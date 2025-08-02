@@ -1,3 +1,5 @@
+import { App } from "@kit.ArkUI"
+
 @Component
 export struct BodyUI {
   build() {
@@ -6,6 +8,7 @@ export struct BodyUI {
     }
     .height('60%')
     .width('100%')
-    .backgroundColor(Color.Gray)
+    .justifyContent(FlexAlign.Center)
+    .backgroundColor($r('app.color.background_body'))
   }
 }
